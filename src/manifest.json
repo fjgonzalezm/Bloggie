@@ -1,0 +1,20 @@
+{
+  "name": "ChromeBlogger",
+  "version": "0.1",
+  "description": "Allows to snap a selected sections of the current page and add it as a new blogger's post",
+  "icons": { "128": "images/icon.png" },
+  "browser_action": {
+    "default_title": "Bloggie",
+	"default_icon": "images/icon.png",
+	"popup": "popup.html"
+  },
+  "permissions": [
+	"notifications",
+	"tabs",
+	"bookmarks",
+	"http://www.blogger.com/",
+	"http://*.google.com/",
+	"https://*.google.com/",
+	"unlimitedStorage"
+  ]
+}
